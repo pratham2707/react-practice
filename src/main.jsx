@@ -15,8 +15,8 @@ function MySelf() {
 createRoot(document.getElementById('root')).render(
   <>
     <StrictMode>
-      <App />
       <MySelf />
+      <App />
     </StrictMode>
   </>
 )
