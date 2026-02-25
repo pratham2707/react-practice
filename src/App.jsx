@@ -3,9 +3,11 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import ClassName from "./Components/Variables/ClassName.jsx"
-import EventListner from "./Components/Variables/EventListners.jsx"
-import StyleAttribute from "./Components/Variables/StyleAttribute.jsx"
+// import ClassName from "./Components/Variables/ClassName.jsx"
+// import EventListner from "./Components/Variables/EventListners.jsx"
+// import StyleAttribute from "./Components/Variables/StyleAttribute.jsx"
+
+import IfStatement from "./Components/Conditions/IfStatement.jsx"
 
 function App() {
   return (
@@ -15,9 +17,12 @@ function App() {
       <MySister />
       <Festival />
       <MyObject /> */}
-      <ClassName />
+      {/* All related to attributes */}
+      {/* <ClassName />
       <EventListner />
-      <StyleAttribute />
+      <StyleAttribute /> */}
+      {/* All related to conditions */}
+      <IfStatement />
     </>
   )
 }
