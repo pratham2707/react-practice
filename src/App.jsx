@@ -8,6 +8,7 @@
 // import StyleAttribute from "./Components/Variables/StyleAttribute.jsx"
 
 import IfStatement from "./Components/Conditions/IfStatement.jsx"
+import TernaryOperator from "./Components/Conditions/TernaryOperator.jsx"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <StyleAttribute /> */}
       {/* All related to conditions */}
       <IfStatement />
+      <TernaryOperator />
     </>
   )
 }
