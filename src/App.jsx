@@ -7,7 +7,11 @@
 // import EventListner from "./Components/Variables/EventListners.jsx"
 // import StyleAttribute from "./Components/Variables/StyleAttribute.jsx"
 
-import IfStatement from "./Components/Conditions/IfStatement.jsx"
+// import IfStatement from "./Components/Conditions/IfStatement.jsx"
+// import TernaryOperator from "./Components/Conditions/TernaryOperator.jsx"
+
+import SingleProperty from "./Components/Props/SingleProperty.jsx"
+import MultipleProperties from "./Components/Props/MultipleProperties.jsx"
 
 function App() {
   return (
@@ -22,7 +26,11 @@ function App() {
       <EventListner />
       <StyleAttribute /> */}
       {/* All related to conditions */}
-      <IfStatement />
+      {/* <IfStatement />
+      <TernaryOperator /> */}
+      {/* All related to properties */}
+      <SingleProperty name="Pratham" />
+      <MultipleProperties shape="Diamond" color="White" />
     </>
   )
 }
