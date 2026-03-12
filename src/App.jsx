@@ -3,7 +3,11 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import Simple from "./Components/Prop Destructuring/Simple"
+import ExampleOnClick from "./Components/Events/ExampleOnClick"
+import OnClickWithArguments from "./Components/Events/OnClickWithArguments"
+import EventObject from "./Components/Events/EventObject"
+
+// import Simple from "./Components/Prop Destructuring/Simple"
 
 // import ClassName from "./Components/Variables/ClassName.jsx"
 // import EventListner from "./Components/Variables/EventListners.jsx"
@@ -14,6 +18,8 @@ import Simple from "./Components/Prop Destructuring/Simple"
 
 // import SingleProperty from "./Components/Props/SingleProperty.jsx"
 // import MultipleProperties from "./Components/Props/MultipleProperties.jsx"
+
+// import Parent from "./Components/Children/Children.jsx"
 
 function App() {
   return (
@@ -34,7 +40,13 @@ function App() {
       {/* <SingleProperty name="Pratham" />
       <MultipleProperties shape="Diamond" color="White" /> */}
       {/* All related to destructuring props */}
-      <Simple movie_name="Jab We Met" release_year="2007" />
+      {/* <Simple movie_name="Jab We Met" release_year="2007" /> */}
+      {/* All related to children */}
+      {/* <Parent /> */}
+      {/* All related to events */}
+      <ExampleOnClick />
+      <OnClickWithArguments />
+      <EventObject />
     </>
   )
 }
