@@ -21,9 +21,11 @@
 
 // import Parent from "./Components/Children/Children.jsx"
 
-import PropsCondition from "./Components/ConditionalRendering/PropsCondition.jsx"
-import TernaryOperator from "./Components/ConditionalRendering/TernaryOperator.jsx"
-import TwoAmpersands from "./Components/ConditionalRendering/TwoAmpersands.jsx"
+// import PropsCondition from "./Components/ConditionalRendering/PropsCondition.jsx"
+// import TernaryOperator from "./Components/ConditionalRendering/TernaryOperator.jsx"
+// import TwoAmpersands from "./Components/ConditionalRendering/TwoAmpersands.jsx"
+
+import SampleList from "./Components/Lists/SampleLists.jsx"
 
 function App() {
   return (
@@ -52,9 +54,11 @@ function App() {
       <OnClickWithArguments />
       <EventObject /> */}
       {/* All related to conditional rendering */}
-      <PropsCondition />
+      {/* <PropsCondition />
       <TwoAmpersands brand="Rolls Royce" />
-      <TernaryOperator />
+      <TernaryOperator /> */}
+      {/* All related to Lists */}
+      <SampleList />
     </>
   )
 }
