@@ -3,9 +3,9 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import ExampleOnClick from "./Components/Events/ExampleOnClick"
-import OnClickWithArguments from "./Components/Events/OnClickWithArguments"
-import EventObject from "./Components/Events/EventObject"
+// import ExampleOnClick from "./Components/Events/ExampleOnClick"
+// import OnClickWithArguments from "./Components/Events/OnClickWithArguments"
+// import EventObject from "./Components/Events/EventObject"
 
 // import Simple from "./Components/Prop Destructuring/Simple"
 
@@ -20,6 +20,10 @@ import EventObject from "./Components/Events/EventObject"
 // import MultipleProperties from "./Components/Props/MultipleProperties.jsx"
 
 // import Parent from "./Components/Children/Children.jsx"
+
+import PropsCondition from "./Components/ConditionalRendering/PropsCondition.jsx"
+import TernaryOperator from "./Components/ConditionalRendering/TernaryOperator.jsx"
+import TwoAmpersands from "./Components/ConditionalRendering/TwoAmpersands.jsx"
 
 function App() {
   return (
@@ -44,9 +48,13 @@ function App() {
       {/* All related to children */}
       {/* <Parent /> */}
       {/* All related to events */}
-      <ExampleOnClick />
+      {/* <ExampleOnClick />
       <OnClickWithArguments />
-      <EventObject />
+      <EventObject /> */}
+      {/* All related to conditional rendering */}
+      <PropsCondition />
+      <TwoAmpersands brand="Rolls Royce" />
+      <TernaryOperator />
     </>
   )
 }
