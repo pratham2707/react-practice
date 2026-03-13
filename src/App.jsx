@@ -3,9 +3,27 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import ClassName from "./Components/Variables/ClassName.jsx"
-import EventListner from "./Components/Variables/EventListners.jsx"
-import StyleAttribute from "./Components/Variables/StyleAttribute.jsx"
+// import ExampleOnClick from "./Components/Events/ExampleOnClick"
+// import OnClickWithArguments from "./Components/Events/OnClickWithArguments"
+// import EventObject from "./Components/Events/EventObject"
+
+// import Simple from "./Components/Prop Destructuring/Simple"
+
+// import ClassName from "./Components/Variables/ClassName.jsx"
+// import EventListner from "./Components/Variables/EventListners.jsx"
+// import StyleAttribute from "./Components/Variables/StyleAttribute.jsx"
+
+// import IfStatement from "./Components/Conditions/IfStatement.jsx"
+// import TernaryOperator from "./Components/Conditions/TernaryOperator.jsx"
+
+// import SingleProperty from "./Components/Props/SingleProperty.jsx"
+// import MultipleProperties from "./Components/Props/MultipleProperties.jsx"
+
+// import Parent from "./Components/Children/Children.jsx"
+
+import PropsCondition from "./Components/ConditionalRendering/PropsCondition.jsx"
+import TernaryOperator from "./Components/ConditionalRendering/TernaryOperator.jsx"
+import TwoAmpersands from "./Components/ConditionalRendering/TwoAmpersands.jsx"
 
 function App() {
   return (
@@ -15,9 +33,28 @@ function App() {
       <MySister />
       <Festival />
       <MyObject /> */}
-      <ClassName />
+      {/* All related to attributes */}
+      {/* <ClassName />
       <EventListner />
-      <StyleAttribute />
+      <StyleAttribute /> */}
+      {/* All related to conditions */}
+      {/* <IfStatement />
+      <TernaryOperator /> */}
+      {/* All related to properties */}
+      {/* <SingleProperty name="Pratham" />
+      <MultipleProperties shape="Diamond" color="White" /> */}
+      {/* All related to destructuring props */}
+      {/* <Simple movie_name="Jab We Met" release_year="2007" /> */}
+      {/* All related to children */}
+      {/* <Parent /> */}
+      {/* All related to events */}
+      {/* <ExampleOnClick />
+      <OnClickWithArguments />
+      <EventObject /> */}
+      {/* All related to conditional rendering */}
+      <PropsCondition />
+      <TwoAmpersands brand="Rolls Royce" />
+      <TernaryOperator />
     </>
   )
 }
