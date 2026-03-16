@@ -3,7 +3,7 @@ function SampleList() {
     return (
         <>
             <h1>My cities</h1>
-            {myList.map((city) => <li key={city.name}>I am {city.name}</li>)}
+            {myList.map((city) => <li key={city.id}>I am {city.name}</li>)}
         </>
     )
 }

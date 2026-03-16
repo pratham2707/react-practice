@@ -25,6 +25,8 @@
 // import TernaryOperator from "./Components/ConditionalRendering/TernaryOperator.jsx"
 // import TwoAmpersands from "./Components/ConditionalRendering/TwoAmpersands.jsx"
 
+import SimpleForm from "./Components/Forms/SimpleForm.jsx"
+import ValueInState from "./Components/Forms/ValueInState.jsx"
 import SampleList from "./Components/Lists/SampleLists.jsx"
 
 function App() {
@@ -58,7 +60,10 @@ function App() {
       <TwoAmpersands brand="Rolls Royce" />
       <TernaryOperator /> */}
       {/* All related to Lists */}
-      <SampleList />
+      {/* <SampleList /> */}
+      {/* All about forms */}
+      <SimpleForm />
+      <ValueInState />
     </>
   )
 }
