@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import TextArea from "./TextArea";
 
 function ValueInState() {
     const [name, setName] = useState("");
@@ -24,6 +25,10 @@ function ValueInState() {
                     />
                 </label>
                 <p>Your name is {name}</p>
+                <label>
+                    Enter a Text
+                    <TextArea />
+                </label>
                 <input type="submit" />
             </form>
         </>
