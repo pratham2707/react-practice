@@ -27,7 +27,7 @@
 
 import SimpleForm from "./Components/Forms/SimpleForm.jsx"
 import ValueInState from "./Components/Forms/ValueInState.jsx"
-import SampleList from "./Components/Lists/SampleLists.jsx"
+// import SampleList from "./Components/Lists/SampleLists.jsx"
 
 function App() {
   return (
@@ -64,6 +64,7 @@ function App() {
       {/* All about forms */}
       <SimpleForm />
       <ValueInState />
+      
     </>
   )
 }

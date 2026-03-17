@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import TextArea from "./TextArea";
+import Select from "./Select";
 
 function ValueInState() {
     const [name, setName] = useState("");
@@ -28,6 +29,10 @@ function ValueInState() {
                 <label>
                     Enter a Text
                     <TextArea />
+                </label>
+                <label>
+                    Select a City
+                    <Select />
                 </label>
                 <input type="submit" />
             </form>

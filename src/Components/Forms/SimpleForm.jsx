@@ -1,11 +1,10 @@
+import MultipleInputs from "./MultipleInputs";
+
 function SimpleForm() {
     return (
         <>
             <form>
-                <label>
-                    Enter your name:
-                    <input type="text" />
-                </label>
+                <MultipleInputs />
             </form>
         </>
     )
