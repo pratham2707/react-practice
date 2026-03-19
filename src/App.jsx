@@ -3,6 +3,9 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
+import UseEffect from "./Components/Hooks/useEffect"
+import UseState from "./Components/Hooks/useState"
+
 // import ExampleOnClick from "./Components/Events/ExampleOnClick"
 // import OnClickWithArguments from "./Components/Events/OnClickWithArguments"
 // import EventObject from "./Components/Events/EventObject"
@@ -25,8 +28,9 @@
 // import TernaryOperator from "./Components/ConditionalRendering/TernaryOperator.jsx"
 // import TwoAmpersands from "./Components/ConditionalRendering/TwoAmpersands.jsx"
 
-import SimpleForm from "./Components/Forms/SimpleForm.jsx"
-import ValueInState from "./Components/Forms/ValueInState.jsx"
+// import Checkbox from "./Components/Forms/Checkbox.jsx"
+// import SimpleForm from "./Components/Forms/SimpleForm.jsx"
+// import ValueInState from "./Components/Forms/ValueInState.jsx"
 // import SampleList from "./Components/Lists/SampleLists.jsx"
 
 function App() {
@@ -62,9 +66,12 @@ function App() {
       {/* All related to Lists */}
       {/* <SampleList /> */}
       {/* All about forms */}
-      <SimpleForm />
+      {/* <SimpleForm />
       <ValueInState />
-      
+      <Checkbox /> */}
+      {/* All related to useState */}
+      <UseState />
+      <UseEffect />
     </>
   )
 }
