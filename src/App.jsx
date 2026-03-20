@@ -3,6 +3,7 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
+import UseContext from "./Components/Hooks/useContext"
 import UseEffect from "./Components/Hooks/useEffect"
 import UseState from "./Components/Hooks/useState"
 
@@ -72,6 +73,7 @@ function App() {
       {/* All related to useState */}
       <UseState />
       <UseEffect />
+      <UseContext />
     </>
   )
 }
