@@ -5,6 +5,8 @@
 
 import UseContext from "./Components/Hooks/useContext"
 import UseEffect from "./Components/Hooks/useEffect"
+import Score from "./Components/Hooks/useReducer"
+import UseRef from "./Components/Hooks/useRef"
 import UseState from "./Components/Hooks/useState"
 
 // import ExampleOnClick from "./Components/Events/ExampleOnClick"
@@ -74,6 +76,8 @@ function App() {
       <UseState />
       <UseEffect />
       <UseContext />
+      <UseRef />
+      <Score />
     </>
   )
 }
