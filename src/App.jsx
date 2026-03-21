@@ -3,6 +3,7 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
+import UseCallback from "./Components/Hooks/useCallback"
 import UseContext from "./Components/Hooks/useContext"
 import UseEffect from "./Components/Hooks/useEffect"
 import Score from "./Components/Hooks/useReducer"
@@ -78,6 +79,7 @@ function App() {
       <UseContext />
       <UseRef />
       <Score />
+      <UseCallback />
     </>
   )
 }
