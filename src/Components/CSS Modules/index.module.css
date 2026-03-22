@@ -1,0 +1,16 @@
+.myButton {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: black;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: black;
+}

@@ -3,12 +3,14 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import UseCallback from "./Components/Hooks/useCallback"
-import UseContext from "./Components/Hooks/useContext"
-import UseEffect from "./Components/Hooks/useEffect"
-import Score from "./Components/Hooks/useReducer"
-import UseRef from "./Components/Hooks/useRef"
-import UseState from "./Components/Hooks/useState"
+import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
+
+// import UseCallback from "./Components/Hooks/useCallback"
+// import UseContext from "./Components/Hooks/useContext"
+// import UseEffect from "./Components/Hooks/useEffect"
+// import Score from "./Components/Hooks/useReducer"
+// import UseRef from "./Components/Hooks/useRef"
+// import UseState from "./Components/Hooks/useState"
 
 // import ExampleOnClick from "./Components/Events/ExampleOnClick"
 // import OnClickWithArguments from "./Components/Events/OnClickWithArguments"
@@ -74,12 +76,14 @@ function App() {
       <ValueInState />
       <Checkbox /> */}
       {/* All related to useState */}
-      <UseState />
+      {/* <UseState />
       <UseEffect />
       <UseContext />
       <UseRef />
       <Score />
-      <UseCallback />
+      <UseCallback /> */}
+      {/* All related to CSS Modules */}
+      <BasicCSSModule />
     </>
   )
 }
