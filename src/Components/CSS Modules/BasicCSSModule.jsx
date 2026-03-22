@@ -1,4 +1,4 @@
-import styles from './index.module.css'
+import styles from './index1.module.css'
 
 function BasicCSSModule() {
     return (

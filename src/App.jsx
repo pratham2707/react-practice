@@ -4,6 +4,7 @@
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
 import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
+import ComposingClasses from "./Components/CSS Modules/ComposingClasses"
 
 // import UseCallback from "./Components/Hooks/useCallback"
 // import UseContext from "./Components/Hooks/useContext"
@@ -84,6 +85,7 @@ function App() {
       <UseCallback /> */}
       {/* All related to CSS Modules */}
       <BasicCSSModule />
+      <ComposingClasses />
     </>
   )
 }
