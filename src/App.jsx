@@ -5,6 +5,7 @@
 
 import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
 import ComposingClasses from "./Components/CSS Modules/ComposingClasses"
+import GlobalClasses from "./Components/CSS Modules/GlobalClasses"
 
 // import UseCallback from "./Components/Hooks/useCallback"
 // import UseContext from "./Components/Hooks/useContext"
@@ -86,6 +87,7 @@ function App() {
       {/* All related to CSS Modules */}
       <BasicCSSModule />
       <ComposingClasses />
+      <GlobalClasses />
     </>
   )
 }

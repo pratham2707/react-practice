@@ -1,0 +1,8 @@
+:global(.myHeader) {
+    color: aqua;
+    text-decoration: underline wavy aqua 2px;
+}
+
+.paragraph {
+    text-decoration: underline wavy black 1px;
+}
