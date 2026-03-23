@@ -3,9 +3,12 @@
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
-import ComposingClasses from "./Components/CSS Modules/ComposingClasses"
-import GlobalClasses from "./Components/CSS Modules/GlobalClasses"
+import BasicCSSInJS from "./Components/CSS in JS/Basic"
+import PropsBasedStyles from "./Components/CSS in JS/PropsBasedStyles"
+
+// import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
+// import ComposingClasses from "./Components/CSS Modules/ComposingClasses"
+// import GlobalClasses from "./Components/CSS Modules/GlobalClasses"
 
 // import UseCallback from "./Components/Hooks/useCallback"
 // import UseContext from "./Components/Hooks/useContext"
@@ -85,9 +88,12 @@ function App() {
       <Score />
       <UseCallback /> */}
       {/* All related to CSS Modules */}
-      <BasicCSSModule />
+      {/* <BasicCSSModule />
       <ComposingClasses />
-      <GlobalClasses />
+      <GlobalClasses /> */}
+      {/* All related to CSS in JS */}
+      <BasicCSSInJS />
+      <PropsBasedStyles />
     </>
   )
 }
