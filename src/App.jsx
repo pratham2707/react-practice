@@ -4,6 +4,7 @@
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
 import BasicCSSInJS from "./Components/CSS in JS/Basic"
+import ExtendedStyles from "./Components/CSS in JS/ExtendedStyles"
 import PropsBasedStyles from "./Components/CSS in JS/PropsBasedStyles"
 
 // import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
@@ -94,6 +95,7 @@ function App() {
       {/* All related to CSS in JS */}
       <BasicCSSInJS />
       <PropsBasedStyles />
+      <ExtendedStyles />
     </>
   )
 }
