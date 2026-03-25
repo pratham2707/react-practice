@@ -5,6 +5,7 @@
 
 import BasicCSSInJS from "./Components/CSS in JS/Basic"
 import ExtendedStyles from "./Components/CSS in JS/ExtendedStyles"
+import GlobalStyles from "./Components/CSS in JS/GlobalStyles"
 import PropsBasedStyles from "./Components/CSS in JS/PropsBasedStyles"
 
 // import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
@@ -96,6 +97,7 @@ function App() {
       <BasicCSSInJS />
       <PropsBasedStyles />
       <ExtendedStyles />
+      <GlobalStyles />
     </>
   )
 }
