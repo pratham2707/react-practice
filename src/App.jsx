@@ -1,12 +1,14 @@
+import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
+
 // import MyAge from "./Components/Expressions/Expression.jsx"
 // import MySister from "./Components/Expressions/Variable.jsx"
 // import Festival from "./Components/Expressions/Function.jsx"
 // import MyObject from "./Components/Expressions/ObjectProperties.jsx"
 
-import BasicCSSInJS from "./Components/CSS in JS/Basic"
-import ExtendedStyles from "./Components/CSS in JS/ExtendedStyles"
-import GlobalStyles from "./Components/CSS in JS/GlobalStyles"
-import PropsBasedStyles from "./Components/CSS in JS/PropsBasedStyles"
+// import BasicCSSInJS from "./Components/CSS in JS/Basic"
+// import ExtendedStyles from "./Components/CSS in JS/ExtendedStyles"
+// import GlobalStyles from "./Components/CSS in JS/GlobalStyles"
+// import PropsBasedStyles from "./Components/CSS in JS/PropsBasedStyles"
 
 // import BasicCSSModule from "./Components/CSS Modules/BasicCSSModule"
 // import ComposingClasses from "./Components/CSS Modules/ComposingClasses"
@@ -46,59 +48,76 @@ import PropsBasedStyles from "./Components/CSS in JS/PropsBasedStyles"
 // import ValueInState from "./Components/Forms/ValueInState.jsx"
 // import SampleList from "./Components/Lists/SampleLists.jsx"
 
+import Home from "./Components/Router/Home.jsx"
+import About from "./Components/Router/About.jsx"
+import Contact from "./Components/Router/Contact.jsx"
+
 function App() {
   return (
-    <>
-      {/* All Related to Expressions */}
-      {/* <MyAge />
+    <BrowserRouter>
+      <>
+        {/* All Related to Expressions */}
+        {/* <MyAge />
       <MySister />
       <Festival />
       <MyObject /> */}
-      {/* All related to attributes */}
-      {/* <ClassName />
+        {/* All related to attributes */}
+        {/* <ClassName />
       <EventListner />
       <StyleAttribute /> */}
-      {/* All related to conditions */}
-      {/* <IfStatement />
+        {/* All related to conditions */}
+        {/* <IfStatement />
       <TernaryOperator /> */}
-      {/* All related to properties */}
-      {/* <SingleProperty name="Pratham" />
+        {/* All related to properties */}
+        {/* <SingleProperty name="Pratham" />
       <MultipleProperties shape="Diamond" color="White" /> */}
-      {/* All related to destructuring props */}
-      {/* <Simple movie_name="Jab We Met" release_year="2007" /> */}
-      {/* All related to children */}
-      {/* <Parent /> */}
-      {/* All related to events */}
-      {/* <ExampleOnClick />
+        {/* All related to destructuring props */}
+        {/* <Simple movie_name="Jab We Met" release_year="2007" /> */}
+        {/* All related to children */}
+        {/* <Parent /> */}
+        {/* All related to events */}
+        {/* <ExampleOnClick />
       <OnClickWithArguments />
       <EventObject /> */}
-      {/* All related to conditional rendering */}
-      {/* <PropsCondition />
+        {/* All related to conditional rendering */}
+        {/* <PropsCondition />
       <TwoAmpersands brand="Rolls Royce" />
       <TernaryOperator /> */}
-      {/* All related to Lists */}
-      {/* <SampleList /> */}
-      {/* All about forms */}
-      {/* <SimpleForm />
+        {/* All related to Lists */}
+        {/* <SampleList /> */}
+        {/* All about forms */}
+        {/* <SimpleForm />
       <ValueInState />
       <Checkbox /> */}
-      {/* All related to useState */}
-      {/* <UseState />
+        {/* All related to useState */}
+        {/* <UseState />
       <UseEffect />
       <UseContext />
       <UseRef />
       <Score />
       <UseCallback /> */}
-      {/* All related to CSS Modules */}
-      {/* <BasicCSSModule />
+        {/* All related to CSS Modules */}
+        {/* <BasicCSSModule />
       <ComposingClasses />
       <GlobalClasses /> */}
-      {/* All related to CSS in JS */}
-      <BasicCSSInJS />
+        {/* All related to CSS in JS */}
+        {/* <BasicCSSInJS />
       <PropsBasedStyles />
       <ExtendedStyles />
-      <GlobalStyles />
-    </>
+      <GlobalStyles /> */}
+        {/* All about routers in react */}
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </>
+    </BrowserRouter>
   )
 }
 
