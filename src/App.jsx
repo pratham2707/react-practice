@@ -51,6 +51,9 @@ import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
 import Home from "./Components/Router/Home.jsx"
 import About from "./Components/Router/About.jsx"
 import Contact from "./Components/Router/Contact.jsx"
+import Products from "./Components/Router/Products.jsx"
+import Cars from "./Components/Router/Cars.jsx"
+import Bikes from "./Components/Router/Bikes.jsx"
 
 function App() {
   return (
@@ -110,11 +113,16 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/products">Products</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />}>
+            <Route path="cars" element={<Cars />} />
+            <Route path="bikes" element={<Bikes />} />
+          </Route>
         </Routes>
       </>
     </BrowserRouter>
