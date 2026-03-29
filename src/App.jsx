@@ -1,6 +1,7 @@
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom"
-import DelayedTransitions from "./Components/Transitions/DelayedTransitions"
-import Transitions from "./Components/Transitions/Transitions"
+import ForwardRef from "./Components/ForwardRef"
+// import DelayedTransitions from "./Components/Transitions/DelayedTransitions"
+// import Transitions from "./Components/Transitions/Transitions"
 
 // import MyAge from "./Components/Expressions/Expression.jsx"
 // import MySister from "./Components/Expressions/Variable.jsx"
@@ -136,8 +137,10 @@ function App() {
         </Routes>
         <Params /> */}
         {/* All about Transitions */}
-        <Transitions />
-        <DelayedTransitions />
+        {/* <Transitions />
+        <DelayedTransitions /> */}
+        {/* All about ForwardRef */}
+        <ForwardRef />
       </>
     </BrowserRouter>
   )
