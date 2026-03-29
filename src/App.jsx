@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
+import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom"
 
 // import MyAge from "./Components/Expressions/Expression.jsx"
 // import MySister from "./Components/Expressions/Variable.jsx"
@@ -54,6 +54,14 @@ import Contact from "./Components/Router/Contact.jsx"
 import Products from "./Components/Router/Products.jsx"
 import Cars from "./Components/Router/Cars.jsx"
 import Bikes from "./Components/Router/Bikes.jsx"
+import Params from "./Components/Router/Params.jsx"
+
+const navLinkStyles = ({ isActive }) => ({
+  color: isActive ? '#007bff' : '#333',
+  textDecoration: isActive ? 'none' : 'underline',
+  fontWeight: isActive ? 'bold' : 'normal',
+  padding: '5px 10px'
+});
 
 function App() {
   return (
@@ -110,10 +118,10 @@ function App() {
       <GlobalStyles /> */}
         {/* All about routers in react */}
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/products">Products</Link>
+          <NavLink to="/" style={navLinkStyles}>Home</NavLink>
+          <NavLink to="/about" style={navLinkStyles}>About</NavLink>
+          <NavLink to="/contact" style={navLinkStyles}>Contact</NavLink>
+          <NavLink to="/products" style={navLinkStyles}>Products</NavLink>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -124,6 +132,7 @@ function App() {
             <Route path="bikes" element={<Bikes />} />
           </Route>
         </Routes>
+        <Params />
       </>
     </BrowserRouter>
   )
