@@ -1,5 +1,6 @@
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom"
-import ForwardRef from "./Components/ForwardRef"
+import HigherOrderComponents from "./Components/HigherOrderComponents"
+// import ForwardRef from "./Components/ForwardRef"
 // import DelayedTransitions from "./Components/Transitions/DelayedTransitions"
 // import Transitions from "./Components/Transitions/Transitions"
 
@@ -121,7 +122,7 @@ function App() {
       <GlobalStyles /> */}
         {/* All about routers in react */}
         {/* <nav>
-          <NavLink to="/" style={navLinkStyles}>Home</NavLink>
+          <NavLink to="" style={navLinkStyles}>Home</NavLink>
           <NavLink to="/about" style={navLinkStyles}>About</NavLink>
           <NavLink to="/contact" style={navLinkStyles}>Contact</NavLink>
           <NavLink to="/products" style={navLinkStyles}>Products</NavLink>
@@ -140,7 +141,9 @@ function App() {
         {/* <Transitions />
         <DelayedTransitions /> */}
         {/* All about ForwardRef */}
-        <ForwardRef />
+        {/* <ForwardRef /> */}
+        {/* All about Higher Order Components */}
+        <HigherOrderComponents />
       </>
     </BrowserRouter>
   )
