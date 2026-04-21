@@ -1,5 +1,7 @@
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom"
-import MyHeader from "./Components/Sass/MyHeader"
+import PortalModal from "./Components/Portals/Modal"
+import EventBubbling from "./Components/Portals/EventBubbling"
+// import MyHeader from "./Components/Sass/MyHeader"
 // import HigherOrderComponents from "./Components/HigherOrderComponents"
 // import ForwardRef from "./Components/ForwardRef"
 // import DelayedTransitions from "./Components/Transitions/DelayedTransitions"
@@ -105,13 +107,14 @@ function App() {
         {/* <SimpleForm />
       <ValueInState />
       <Checkbox /> */}
-        {/* All related to useState */}
+        {/* All related to Hooks */}
         {/* <UseState />
       <UseEffect />
       <UseContext />
       <UseRef />
       <Score />
       <UseCallback /> */}
+        useMemo
         {/* All related to CSS Modules */}
         {/* <BasicCSSModule />
       <ComposingClasses />
@@ -146,7 +149,10 @@ function App() {
         {/* All about Higher Order Components */}
         {/* <HigherOrderComponents /> */}
         {/* All about Sass */}
-        <MyHeader />
+        {/* <MyHeader /> */}
+        {/* All about Modals */}
+        <PortalModal />
+        <EventBubbling />
       </>
     </BrowserRouter>
   )
